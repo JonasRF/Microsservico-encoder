@@ -1,5 +1,5 @@
 .idea
 .env
-bucket-credential.json
+.json
 .pgdata
 .devcontainer
