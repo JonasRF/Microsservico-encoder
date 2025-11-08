@@ -1,3 +1,13 @@
+FROM golang:1.24-alpine
+
+# Variáveis de ambiente
+ENV PATH="$PATH:/bin/bash" \
+    BENTO4_BIN="/opt/bento4/bin" \
+    BENTO4_PATH="/opt/bento4" \
+    BENTO4_BASE_URL="https://github.com/axiomatic-systems/Bento4/archive/refs/tags" \
+    BENTO4_VERSION="1-6-0-639" \
+    PATH="$PATH:/opt/bento4/bin"
+
 FROM golang:1.14.6-alpine3.11
 ENV PATH="$PATH:/bin/bash" \
     BENTO4_BIN="/opt/bento4/bin" \
