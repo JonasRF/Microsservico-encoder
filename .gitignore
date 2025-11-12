@@ -3,4 +3,4 @@
 .json
 .pgdata
 .devcontainer
-bucket-credential.jsonbucket-credential.json
+bucket-credential.json
